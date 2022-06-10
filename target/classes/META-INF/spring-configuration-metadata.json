@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "prv.jarkchen.config.SQLDataSource",
+      "sourceType": "prv.jarkchen.config.SQLDataSource"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.driver-name",
+      "type": "java.lang.String",
+      "sourceType": "prv.jarkchen.config.SQLDataSource"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "prv.jarkchen.config.SQLDataSource"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "prv.jarkchen.config.SQLDataSource"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "prv.jarkchen.config.SQLDataSource"
+    }
+  ],
+  "hints": []
+}

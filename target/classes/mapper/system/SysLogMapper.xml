@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="prv.jarkchen.mapper.system.SysLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="prv.jarkchen.pojo.system.SysLog">
+        <id column="id" property="id"/>
+        <result column="log_id" property="logId"/>
+        <result column="log_name" property="logName"/>
+        <result column="log_message" property="logMessage"/>
+        <result column="log_source" property="logSource"/>
+        <result column="log_time" property="logTime"/>
+        <result column="log_type" property="logType"/>
+        <result column="log_level" property="logLevel"/>
+        <result column="log_file" property="logFile"/>
+        <result column="log_user_name" property="logUserName"/>
+        <result column="log_user_id" property="logUserId"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, log_id, log_name, log_message, log_source, log_time, log_type, log_level, 
+        log_file, log_user_name, log_user_id
+    </sql>
+
+</mapper>

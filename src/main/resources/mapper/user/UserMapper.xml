@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="prv.jarkchen.mapper.user.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="prv.jarkchen.pojo.user.User">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="acount" property="acount"/>
+        <result column="mobile" property="mobile"/>
+        <result column="e_mail" property="eMail"/>
+        <result column="qq" property="qq"/>
+        <result column="we_chat" property="weChat"/>
+        <result column="password" property="password"/>
+        <result column="id_card" property="idCard"/>
+        <result column="create_time" property="createTime"/>
+        <result column="modified_time" property="modifiedTime" />
+        <result column="salt" property="salt" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, user_id, acount, mobile, e_mail, qq, we_chat, password, id_card, create_time, modified_time, salt
+    </sql>
+
+</mapper>
